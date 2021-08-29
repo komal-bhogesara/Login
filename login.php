@@ -17,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         header("location: welcome.php");
     }
     else {
-        $showError = "Invalid credentials";
+        $showError = "Invalid credentials!";
    }
  }
 
